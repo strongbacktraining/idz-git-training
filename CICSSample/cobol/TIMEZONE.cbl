@@ -2,7 +2,7 @@
       *                                                                *
       * MODULE NAME    TIMEZONE.CBL                                    *
       *                                                                *
-      * STATEMENT      IBM WebSphere Developer for System z            *
+      * STATEMENT      IBM  Developer for System z            *
       *                5724-L44                                        *
       *                (c) Copyright IBM Corp. 2006                    *
       *                                                                *
