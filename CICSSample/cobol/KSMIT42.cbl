@@ -28,7 +28,7 @@
       ******************************************************************
 
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. TIMEZONE.
+       PROGRAM-ID. KSMIT42.
 
        ENVIRONMENT DIVISION.
        DATA DIVISION.
