@@ -7,7 +7,7 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES                                       *
-      *    THer are no warranties here. Use this at your peril         *
+      *    There are no warranties here. Use this at your peril        *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
