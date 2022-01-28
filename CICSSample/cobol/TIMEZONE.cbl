@@ -4,7 +4,7 @@
       *                                                                *
       * STATEMENT      IBM WebSphere Developer for System z            *
       *                5724-L44                                        *
-      *                (c) Copyright IBM Corp. 2006                    *
+      *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES                                       *
       * You may copy, modify, and distribute these samples, or their   *
