@@ -2,7 +2,11 @@
       *                                                                *
       * MODULE NAME    TIMEZONE.CBL                                    *
       *                                                                *
+<<<<<<< HEAD
+      * STATEMENT      IBM  Developer for System z            *
+=======
       * STATEMENT      IBM Developer for System z            *
+>>>>>>> refs/heads/main
       *                5724-L44                                        *
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
