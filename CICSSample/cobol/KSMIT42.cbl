@@ -7,11 +7,12 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES                                       *
-      *    There are no warranties here. Use this at your peril       too many characters in this column!!!! *
+      *    There are no warranties here. Use this at your peril
+      *too many characters in this column!!!! *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. TIMEZONE.
+       PROGRAM-ID. KSMIT42.
 
        ENVIRONMENT DIVISION.
        DATA DIVISION.
