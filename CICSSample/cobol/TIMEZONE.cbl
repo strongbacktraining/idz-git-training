@@ -1,13 +1,8 @@
       ******************************************************************
       *                                                                *
       * MODULE NAME    TIMEZONE.CBL                                    *
+      *  IBM DevOps Studio for z/OS
       *                                                                *
-<<<<<<< HEAD
-      * STATEMENT      IBM  Developer for System z            *
-=======
-      * STATEMENT      IBM Developer for System z            *
->>>>>>> refs/heads/main
-      *                5724-L44                                        *
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES                                       *
