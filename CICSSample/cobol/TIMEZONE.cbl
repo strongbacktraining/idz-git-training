@@ -1,13 +1,13 @@
       ******************************************************************
-      *                                                                *
-      * MODULE NAME    TIMEZONE.CBL                                    *
-      *  IBM DevOps Studio for z/OS
-      *                                                                *
-      *                (c) Copyright IBM Corp. 2022                    *
-      *                                                                *
-      * DISCLAIMER OF WARRANTIES                                       *
+      *
+      * MODULE NAME    TIMEZONE.CBL
+      *                IBM DevOps Studio for z/OS HALG320
+      *
+      *                (c) Copyright IBM Corp. 2022
+      *
+      * DISCLAIMER OF WARRANTIES
       * Caveat Emptor
-      *                                                                *
+      *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
