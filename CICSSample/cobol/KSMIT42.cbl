@@ -46,10 +46,10 @@
            MOVE "==>" TO MSG-OUT(1:3)
            Move DATE-OUT(1:8) to MSG-OUT(6:8).
            Move " " to MSG-OUT(14:1).
-           Move TIME-OUT(1:8) to MSG-OUT(15:8).
+           Move TIME-OUT(3:8) to MSG-OUT(15:8).
            EXEC CICS SEND
                        FROM    (MSG-OUT)
-                       LENGTH (30)
+                       LENGTH (40)
             END-EXEC.
 
            EXEC CICS RETURN END-EXEC.

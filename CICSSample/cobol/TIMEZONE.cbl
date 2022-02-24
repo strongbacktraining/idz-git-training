@@ -1,13 +1,13 @@
       ******************************************************************
-      *                                                                *
-      * MODULE NAME    TIMEZONE.CBL                                    *
-      *  IBM DevOps Studio for z/OS
-      *                                                                *
-      *                (c) Copyright IBM Corp. 2022                    *
-      *                                                                *
-      * DISCLAIMER OF WARRANTIES                                       *
+      *
+      * MODULE NAME    TIMEZONE.CBL
+      *                IBM DevOps Studio for z/OS HALG320
+      *
+      *                (c) Copyright IBM Corp. 2022
+      *
+      * DISCLAIMER OF WARRANTIES
       * Caveat Emptor
-      *                                                                *
+      *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
@@ -21,6 +21,7 @@
        01  TIME-TEMP         PIC X(8).
        01  DATE-OUT      PIC X(8).
        01  TIME-OUT      PIC X(8).
+       01  WAY-OUT      PIC X(1).
        01 WS-MESSAGE  PIC X(8).
        01 MSG-OUT        PIC X(30).
 
