@@ -1,14 +1,13 @@
       ******************************************************************
-      *                                                                *
-      * MODULE NAME    TIMEZONE.CBL                                    *
-      *                                                                *
-      * STATEMENT      IBM  Developer for System z            *
-      *                5724-L44                                        *
-      *                (c) Copyright IBM Corp. 2022                    *
-      *                                                                *
-      * DISCLAIMER OF WARRANTIES                                       *
-      * Caveat Emptor - buyer beware
-      *                                                                *
+      *
+      * MODULE NAME    TIMEZONE.CBL
+      *                IBM DevOps Studio for z/OS HALG320
+      *
+      *                (c) Copyright IBM Corp. 2022
+      *
+      * DISCLAIMER OF WARRANTIES
+      * Caveat Emptor
+      *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
