@@ -17,13 +17,15 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       77 RAWTIME            PIC S9(15) COMP-3.
-       01  DATE-TEMP         PIC X(8).
-       01  TIME-TEMP         PIC X(8).
-       01  DATE-OUT      PIC X(8).
-       01  TIME-OUT      PIC X(8).
+       77 RAWTIME     PIC S9(15) COMP-3.
+       01 DATE-TEMP   PIC X(8).
+       01 TIME-TEMP   PIC X(8).
+       01 DATE-OUT    PIC X(8).
+       01 TIME-OUT    PIC X(8).
        01 WS-MESSAGE  PIC X(8).
-       01 MSG-OUT        PIC X(30).
+       01 JSON-OUT    PIC S8(13) COMP-3.
+       01 REASON      PIC X(20).
+       01 MSG-OUT     PIC X(30).
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
@@ -32,26 +34,27 @@
       ***************************************************************
            MOVE SPACES TO MSG-OUT.
            EXEC CICS ASKTIME ABSTIME(RAWTIME)
-           END-EXEC.
+                END-EXEC.
 
            EXEC CICS FORMATTIME ABSTIME(RAWTIME)
-                                MMDDYY(DATE-OUT)
-                                DATESEP('-')
-                                TIME(TIME-OUT)
-                                TIMESEP(':')
-           END-EXEC.
+                MMDDYY(DATE-OUT)
+                DATESEP('-')
+                TIME(TIME-OUT)
+                TIMESEP(':')
+                END-EXEC.
 
            MOVE DATE-OUT TO DATE-TEMP.
            MOVE TIME-OUT TO TIME-TEMP.
            MOVE "==>" TO MSG-OUT(1:3)
-           Move DATE-OUT(1:8) to MSG-OUT(6:8).
-           Move " " to MSG-OUT(14:1).
-           Move TIME-OUT(3:8) to MSG-OUT(15:8).
+           MOVE DATE-OUT(1:8) TO MSG-OUT(6:8).
+           MOVE " " TO MSG-OUT(14:1).
+           MOVE TIME-OUT(3:8) TO MSG-OUT(15:8).
            EXEC CICS SEND
-                       FROM    (MSG-OUT)
-                       LENGTH (40)
-            END-EXEC.
+                FROM (MSG-OUT)
+                LENGTH(40)
+                END-EXEC.
 
-           EXEC CICS RETURN END-EXEC.
+           EXEC CICS RETURN
+                END-EXEC.
 
            GOBACK.
