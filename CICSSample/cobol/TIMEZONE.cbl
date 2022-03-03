@@ -21,9 +21,10 @@
        01  TIME-TEMP         PIC X(8).
        01  DATE-OUT      PIC X(8).
        01  TIME-OUT      PIC X(8).
-       01  WAY-OUT      PIC X(1).
+       01  WAY-OUT      PIC X(9).
        01 WS-MESSAGE  PIC X(8).
        01 MSG-OUT        PIC X(30).
+       01 BAD-VAR      PIC S7(11).
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
