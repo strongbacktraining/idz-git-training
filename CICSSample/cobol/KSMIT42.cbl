@@ -7,8 +7,8 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES                                       *
-      *    There are no warranties here. Use this at your peril
-      *too many characters in this column!!!! *
+      * None granted - use at your own risk.
+
       ******************************************************************
 
        IDENTIFICATION DIVISION.
@@ -23,8 +23,7 @@
        01 DATE-OUT    PIC X(8).
        01 TIME-OUT    PIC X(8).
        01 WS-MESSAGE  PIC X(8).
-       01 JSON-OUT    PIC S8(13) COMP-3.
-       01 REASON      PIC X(20).
+
        01 MSG-OUT     PIC X(30).
 
        LINKAGE SECTION.
