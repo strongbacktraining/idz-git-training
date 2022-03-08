@@ -8,7 +8,6 @@
       *                                                                *
       * DISCLAIMER OF WARRANTIES                                       *
       *    There are no warranties here. Use this at your peril
-      *too many characters in this column!!!! *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
