@@ -16,7 +16,7 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        77 RAWTIME            PIC S9(15) COMP-3.
-       01  DATE-TEMP         PIC X(8).
+       01  DATE-TEMP         PIC X(15).
 
 
 
@@ -27,7 +27,7 @@
 
 
 
-       01  TIME-TEMP         PIC X(8).
+       01  TIME-TEMP         PIC X(6).
        01  DATE-OUT      PIC X(8).
        01  TIME-OUT      PIC X(8).
        01 WS-MESSAGE  PIC X(8).
