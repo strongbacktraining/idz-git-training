@@ -7,9 +7,7 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES                                       *
-      * None granted - use at your own risk.
-
-      ******************************************************************
+      **************************************
 
        IDENTIFICATION DIVISION.
        PROGRAM-ID. KSMIT42.
