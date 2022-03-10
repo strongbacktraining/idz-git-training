@@ -1,12 +1,11 @@
       ******************************************************************
       *
       * MODULE NAME    TIMEZONE.CBL
-      *                IBM DevOps Studio for z/OS HALG320
-      *
+      *                IBM Developer for z/OS
       *                (c) Copyright IBM Corp. 2022
       *
       * DISCLAIMER OF WARRANTIES
-      * Caveat Emptor
+      * Caveat Emptor - you get what you pay for.
       *
       ******************************************************************
 
