@@ -6,7 +6,8 @@
       *                5724-L44                                        *
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
-      * DISCLAIMER OF WARRANTIES                                       *
+      * DISCLAIMER OF WARRANTIES
+      * More edits on this fine St. Patty's day          *
       **************************************
 
        IDENTIFICATION DIVISION.
@@ -15,13 +16,12 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       77 RAWTIME     PIC S9(15) COMP-3.
+       77 RAWTIME     PIC S9(45) COMP-3.
        01 DATE-TEMP   PIC X(8).
        01 TIME-TEMP   PIC X(8).
        01 DATE-OUT    PIC X(8).
        01 TIME-OUT    PIC X(8).
        01 WS-MESSAGE  PIC X(8).
- This will break our code and not compile!!   
        01 MSG-OUT     PIC X(30).
 
        LINKAGE SECTION.
@@ -54,4 +54,3 @@
            EXEC CICS RETURN
                 END-EXEC.
 
-           GOBACK.
