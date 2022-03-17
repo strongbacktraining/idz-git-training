@@ -5,7 +5,7 @@
       *                (c) Copyright IBM Corp. 2022
       *
       * DISCLAIMER OF WARRANTIES
-      * Caveat Empt      ******************************************************************
+      * No warranties are guaranteed here.
       *
       * MODULE NAME    TIMEZONE.CBL
       *                IBM Developer for z/OS
@@ -24,10 +24,10 @@
        WORKING-STORAGE SECTION.
        77 RAWTIME            PIC S9(15) COMP-3.
        01  DATE-TEMP         PIC X(15).
-       01  TIME-OUT      PIC X(8).
+       01  TIME-OUT      PIC X(9).
        01 WS-MESSAGE  PIC X(8).
-       01 MSG-OUT        PIC X(30).
-       01 CUSTOMER_FNAME  PIC X(30).
+       01 MSG-OUT        PIC X(45).
+       01 CUSTOMER_FNAME  PIC X(70).
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
@@ -71,16 +71,6 @@
        WORKING-STORAGE SECTION.
        77 RAWTIME            PIC S9(15) COMP-3.
        01  DATE-TEMP         PIC X(15).
-
-
-
-
-
-
-
-
-
-
        01  TIME-TEMP         PIC X(6).
        01  DATE-OUT      PIC X(8).
        01  TIME-OUT      PIC X(8).
