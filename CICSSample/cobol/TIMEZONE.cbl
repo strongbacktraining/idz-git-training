@@ -11,9 +11,6 @@
       *                IBM Developer for z/OS
       *                (c) Copyright IBM Corp. 2022
       *
-      * DISCLAIMER OF WARRANTIES
-      *  - For the right price, we'll guarantee that it works.
-      *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
