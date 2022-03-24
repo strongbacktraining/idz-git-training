@@ -5,7 +5,8 @@
       *                (c) Copyright IBM Corp. 2022
       *
       * DISCLAIMER OF WARRANTIES
-      * Caveat Empt      ******************************************************************
+      * Caveat Empt
+      ******************************************************************
       *
       * MODULE NAME    TIMEZONE.CBL
       *                IBM Developer for z/OS
@@ -23,7 +24,7 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        77 RAWTIME            PIC S9(15) COMP-3.
-       01  DATE-TEMP         PIC X(15).
+       01  DATE-TEMP         PIC X(35).
        01  TIME-OUT      PIC X(8).
        01 WS-MESSAGE  PIC X(8).
        01 MSG-OUT        PIC X(30).
@@ -48,7 +49,7 @@
            MOVE DATE-OUT TO DATE-TEMP.
            MOVE TIME-OUT TO TIME-TEMP.
            MOVE "==>" TO MSG-OUT(1:3)
-           Move DATE-OUT(1:8) to MSG-OUT(6:8).
+           Move DATE-OUT(2:8) to MSG-OUT(6:8).
            Move " " to MSG-OUT(14:1).
            Move TIME-OUT(1:8) to MSG-OUT(15:8).
            EXEC CICS SEND
@@ -113,7 +114,7 @@
            Move TIME-OUT(1:8) to MSG-OUT(15:8).
            EXEC CICS SEND
                        FROM    (MSG-OUT)
-                       LENGTH (30)
+                       LENGTH (25)
             END-EXEC.
 
            EXEC CICS RETURN END-EXEC.
