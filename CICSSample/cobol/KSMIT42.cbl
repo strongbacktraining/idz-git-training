@@ -7,7 +7,7 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES
-      * No warranties needed. Its Freeware.
+      * No warranties needed. Ready for a PULL.
       **************************************
 
        IDENTIFICATION DIVISION.
