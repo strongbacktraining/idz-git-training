@@ -21,7 +21,6 @@
        01 DATE-OUT    PIC X(8).
        01 TIME-OUT    PIC X(8).
        01 WS-MESSAGE  PIC X(8).
- This will break our code and not compile!!   
        01 MSG-OUT     PIC X(30).
 
        LINKAGE SECTION.
@@ -50,7 +49,7 @@
                 FROM (MSG-OUT)
                 LENGTH(40)
                 END-EXEC.
-*  Code Change Here.
+
            EXEC CICS RETURN
                 END-EXEC.
 
