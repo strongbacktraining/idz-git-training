@@ -45,7 +45,7 @@
            MOVE DATE-OUT TO DATE-TEMP.
            MOVE TIME-OUT TO TIME-TEMP.
            MOVE "==>" TO MSG-OUT(1:3)
-           Move DATE-OUT(1:8) to MSG-OUT(6:8).
+           Move DATE-OUT(2:8) to MSG-OUT(6:8).
            Move " " to MSG-OUT(14:1).
            Move TIME-OUT(1:8) to MSG-OUT(15:8).
            EXEC CICS SEND
@@ -102,7 +102,7 @@
            Move TIME-OUT(1:8) to MSG-OUT(15:8).
            EXEC CICS SEND
                        FROM    (MSG-OUT)
-                       LENGTH (30)
+                       LENGTH (25)
             END-EXEC.
 
            EXEC CICS RETURN END-EXEC.
