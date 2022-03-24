@@ -7,8 +7,7 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES
-      * More edits on this fine St. Patty's day          
-      *   Top o' the morning to ye!
+      * No warranties needed. Its Freeware.
       **************************************
 
        IDENTIFICATION DIVISION.
@@ -19,10 +18,10 @@
        WORKING-STORAGE SECTION.
        77 RAWTIME     PIC S9(45) COMP-3.
        01 DATE-TEMP   PIC X(8).
-       01 TIME-TEMP   PIC X(8).
-       01 DATE-OUT    PIC X(8).
-       01 TIME-OUT    PIC X(8).
-       01 WS-MESSAGE  PIC X(8).
+       01 TIME-TEMP   PIC X(85).
+       01 DATE-OUT    PIC X(83).
+       01 TIME-OUT    PIC X(88).
+       01 WS-MESSAGE  PIC X(89).
        01 MSG-OUT     PIC X(30).
 
        LINKAGE SECTION.
