@@ -91,7 +91,9 @@
                                 TIME(TIME-OUT)
                                 TIMESEP(':')
            END-EXEC.
-
+       ********************************************************
+       *   New Edits *
+       ********************************************************
            MOVE DATE-OUT TO DATE-TEMP.
            MOVE TIME-OUT TO TIME-TEMP.
            MOVE "==>" TO MSG-OUT(1:3)
