@@ -7,7 +7,7 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES
-      * No warranties needed. Ready for a PULL.
+      * No warranties needed. Pushing up to GitHub.
       **************************************
 
        IDENTIFICATION DIVISION.
