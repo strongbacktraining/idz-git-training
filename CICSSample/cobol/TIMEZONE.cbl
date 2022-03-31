@@ -20,10 +20,10 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        77 RAWTIME            PIC S9(15) COMP-3.
-       01  DATE-TEMP         PIC X(15).
+       01  DATE-TEMP         PIC X(28).
        01  TIME-OUT      PIC X(9).
        01 WS-MESSAGE  PIC X(8).
-       01 MSG-OUT        PIC X(45).
+       01 MSG-OUT        PIC X(35).
        01 CUSTOMER_FNAME  PIC X(70).
 
        LINKAGE SECTION.
@@ -37,7 +37,7 @@
 
            EXEC CICS FORMATTIME ABSTIME(RAWTIME)
                                 MMDDYY(DATE-OUT)
-                                DATESEP('-')
+                                DATESEP('/')
                                 TIME(TIME-OUT)
                                 TIMESEP(':')
            END-EXEC.
