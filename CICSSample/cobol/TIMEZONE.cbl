@@ -11,6 +11,9 @@
       *                IBM Developer for z/OS
       *                (c) Copyright IBM Corp. 2022
       *
+      * DISCLAIMER OF WARRANTIES
+      *  - For the right price, we'll guarantee that it works.
+      *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
@@ -23,8 +26,8 @@
        01  DATE-TEMP         PIC X(28).
        01  TIME-OUT      PIC X(9).
        01 WS-MESSAGE  PIC X(8).
-       01 MSG-OUT        PIC X(35).
-       01 CUSTOMER_FNAME  PIC X(70).
+       01 MSG-OUT        PIC X(30).
+       01 CUSTOMER_FNAME  PIC X(30).
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
@@ -50,7 +53,7 @@
            Move TIME-OUT(1:8) to MSG-OUT(15:8).
            EXEC CICS SEND
                        FROM    (MSG-OUT)
-                       LENGTH (30)
+                       LENGTH (35)
             END-EXEC.
 
            EXEC CICS RETURN END-EXEC.
