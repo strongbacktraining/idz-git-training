@@ -22,7 +22,7 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       77 RAWTIME            PIC S9(15) COMP-3.
+       77 RAWTIME            PIC S9(17) COMP-3.
        01  DATE-TEMP         PIC X(28).
        01  TIME-OUT      PIC X(9).
        01 WS-MESSAGE  PIC X(8).
