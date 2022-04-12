@@ -26,8 +26,11 @@
        01  DATE-TEMP         PIC X(28).
        01  TIME-OUT      PIC X(9).
        01 WS-MESSAGE  PIC X(8).
-       01 MSG-OUT        PIC X(30).
-       01 CUSTOMER_FNAME  PIC X(30).
+       01 MSG-OUT        PIC X(35).
+       01 CUSTOMER_FNAME  PIC X(70).
+       01 CUSTOMER_LNAME  PIC X(65).
+
+
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
