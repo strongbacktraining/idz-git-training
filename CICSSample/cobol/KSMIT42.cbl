@@ -22,7 +22,7 @@
        01 DATE-OUT    PIC X(83).
        01 TIME-OUT    PIC X(88).
        01 WS-MESSAGE  PIC X(89).
-
+       01 OUT-SPACE   PIC X(21).
 
        01 MSG-OUT     PIC X(30).
 
@@ -55,4 +55,4 @@
 
            EXEC CICS RETURN
                 END-EXEC.
-
+           MOVE "DONE" to MSG-OUT.
