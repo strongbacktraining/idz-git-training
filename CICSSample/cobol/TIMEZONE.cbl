@@ -25,6 +25,8 @@
        01 WS-MESSAGE  PIC X(8).
        01 MSG-OUT        PIC X(35).
        01 CUSTOMER_FNAME  PIC X(70).
+       01 CUSTOMER_LNAME  PIC X(65).
+
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
