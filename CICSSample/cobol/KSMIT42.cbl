@@ -55,4 +55,4 @@
 
            EXEC CICS RETURN
                 END-EXEC.
-
+           MOVE "DONE" to MSG-OUT.
