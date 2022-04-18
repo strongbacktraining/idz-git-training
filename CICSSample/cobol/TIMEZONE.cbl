@@ -13,7 +13,7 @@
       *
       * DISCLAIMER OF WARRANTIES
       *  - For the right price, we'll guarantee that it works.
-      *
+      *  - Demonstrating PUSH to Github.
       ******************************************************************
 
        IDENTIFICATION DIVISION.
