@@ -5,15 +5,10 @@
       *                (c) Copyright IBM Corp. 2022
       *
       * DISCLAIMER OF WARRANTIES
-      * No warranties are guaranteed here.
-      *
-      * MODULE NAME    TIMEZONE.CBL
-      *                IBM Developer for z/OS
-      *                (c) Copyright IBM Corp. 2022
-      *
-      * DISCLAIMER OF WARRANTIES
       *  - For the right price, we'll guarantee that it works.
-      *
+      *  - Demonstrating PUSH to Github.
+      *  - Push it....push it real good....
+      *  - Pull me down slowly. 
       ******************************************************************
 
        IDENTIFICATION DIVISION.
