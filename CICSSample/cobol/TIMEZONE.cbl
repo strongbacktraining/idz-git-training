@@ -8,7 +8,7 @@
       *  - For the right price, we'll guarantee that it works.
       *  - Demonstrating PUSH to Github.
       *  - Push it....push it real good....
-      *  - Pull me down slowly. 
+      *  - Pull me down slowly.
       ******************************************************************
 
        IDENTIFICATION DIVISION.
@@ -17,13 +17,13 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       77 RAWTIME            PIC S9(17) COMP-3.
+       77 RAWTIME            PIC S9(15) COMP-3.
        01  DATE-TEMP         PIC X(28).
        01  TIME-OUT      PIC X(9).
        01 WS-MESSAGE  PIC X(8).
-       01 MSG-OUT        PIC X(35).
-       01 CUSTOMER_FNAME  PIC X(70).
-       01 CUSTOMER_LNAME  PIC X(65).
+       01 MSG-OUT        PIC X(25).
+       01 CUSTOMER_FNAME  PIC X(50).
+       01 CUSTOMER_LNAME  PIC X(60).
 
 
 
