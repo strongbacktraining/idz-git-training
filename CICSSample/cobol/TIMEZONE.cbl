@@ -7,8 +7,8 @@
       * DISCLAIMER OF WARRANTIES
       *  - For the right price, we'll guarantee that it works.
       *  - Demonstrating PUSH to Github.
-      *  - Push it....push it real good....
-      *  - Pull me down slowly.
+      *  - Yet another push demo
+      *  - Yet another push demo
       ******************************************************************
 
        IDENTIFICATION DIVISION.
