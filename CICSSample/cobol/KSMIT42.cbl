@@ -22,10 +22,10 @@
        01 TIME-TEMP   PIC X(85).
        01 DATE-OUT    PIC X(83).
        01 TIME-OUT    PIC X(88).
-       01 WS-MESSAGE  PIC X(89).
-       01 OUT-SPACE   PIC X(21).
+       01 WS-MESSAGE  PIC X(69).
+       01 OUT-SPACE   PIC X(23).
 
-       01 MSG-OUT     PIC X(30).
+       01 MSG-OUT     PIC X(45).
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
