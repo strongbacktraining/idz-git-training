@@ -19,13 +19,13 @@
        WORKING-STORAGE SECTION.
        77 RAWTIME     PIC S9(45) COMP-3.
        01 DATE-TEMP   PIC X(8).
-       01 TIME-TEMP   PIC X(85).
-       01 DATE-OUT    PIC X(87).
-       01 TIME-OUT    PIC X(88).
-       01 WS-MESSAGE  PIC X(17).
-       01 OUT-SPACE   PIC X(33).
+       01 TIME-TEMP   PIC X(75).
+       01 DATE-OUT    PIC X(77).
+       01 TIME-OUT    PIC X(66).
+       01 WS-MESSAGE  PIC X(27).
+       01 OUT-SPACE   PIC X(13).
 
-       01 MSG-OUT     PIC X(75).
+       01 MSG-OUT     PIC X(65).
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
