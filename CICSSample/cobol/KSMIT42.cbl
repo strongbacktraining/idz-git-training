@@ -8,7 +8,7 @@
       *                                                                *
       * DISCLAIMER OF WARRANTIES
       * No warranties needed. Pushing up to GitHub.
-      * will this pull down?
+      * This is the first in (setting up a conflict)
       **************************************
 
        IDENTIFICATION DIVISION.
