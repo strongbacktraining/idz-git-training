@@ -8,7 +8,7 @@
       *                                                                *
       * DISCLAIMER OF WARRANTIES
       * No warranties needed. Pushing up to GitHub.
-      * Yes, it pulled down. I'm the good guy.
+      * Yes, I resolved the changes. I'm neutral now.
       **************************************
 
        IDENTIFICATION DIVISION.
