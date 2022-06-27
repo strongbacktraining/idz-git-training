@@ -8,7 +8,7 @@
       *                                                                *
       * DISCLAIMER OF WARRANTIES
       * No warranties needed. Pushing up to GitHub.
-      * will this pull down?
+      * Yes, it pulled down. I'm the good guy.
       **************************************
 
        IDENTIFICATION DIVISION.
