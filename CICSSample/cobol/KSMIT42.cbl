@@ -7,7 +7,6 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES
-      * No warranties needed. Pushing up to GitHub.
       **************************************
 
        IDENTIFICATION DIVISION.
