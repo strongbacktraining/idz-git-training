@@ -20,12 +20,12 @@
        77 RAWTIME     PIC S9(45) COMP-3.
        01 DATE-TEMP   PIC X(8).
        01 TIME-TEMP   PIC X(85).
-       01 DATE-OUT    PIC X(83).
+       01 DATE-OUT    PIC X(87).
        01 TIME-OUT    PIC X(88).
-       01 WS-MESSAGE  PIC X(69).
-       01 OUT-SPACE   PIC X(23).
+       01 WS-MESSAGE  PIC X(17).
+       01 OUT-SPACE   PIC X(33).
 
-       01 MSG-OUT     PIC X(45).
+       01 MSG-OUT     PIC X(75).
 
        LINKAGE SECTION.
        PROCEDURE DIVISION.
