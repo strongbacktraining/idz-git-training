@@ -8,7 +8,7 @@
       *                                                                *
       * DISCLAIMER OF WARRANTIES
       * No warranties needed. Pushing up to GitHub.
-      * Demonstration of a PULL
+      * will this pull down?
       **************************************
 
        IDENTIFICATION DIVISION.
