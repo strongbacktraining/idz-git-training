@@ -6,7 +6,7 @@
       *
       * DISCLAIMER OF WARRANTIES
       * - Caveat Emptor: Buyer beware. This has no guarantees!
-      *
+      * - EDITED IN GITHUB
       ******************************************************************
 
        IDENTIFICATION DIVISION.
