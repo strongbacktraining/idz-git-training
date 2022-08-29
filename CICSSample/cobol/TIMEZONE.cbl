@@ -5,6 +5,8 @@
       *                (c) Copyright IBM Corp. 2022
       *
       * DISCLAIMER OF WARRANTIES
+      * - Caveat Emptor: Buyer beware. This has no guarantees!
+      *
       ******************************************************************
 
        IDENTIFICATION DIVISION.
