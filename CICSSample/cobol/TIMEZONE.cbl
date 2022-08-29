@@ -7,6 +7,7 @@
       * DISCLAIMER OF WARRANTIES
       * - Caveat Emptor: Buyer beware. This has no guarantees!
       * - EDITED IN GITHUB
+      * - Setup for conflict in local.
       ******************************************************************
 
        IDENTIFICATION DIVISION.
