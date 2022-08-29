@@ -7,6 +7,8 @@
       *                (c) Copyright IBM Corp. 2022                    *
       *                                                                *
       * DISCLAIMER OF WARRANTIES
+      * - Money back guarntee! THIS will work or your money back
+      * -Note: This code is free.
       **************************************
 
        IDENTIFICATION DIVISION.
