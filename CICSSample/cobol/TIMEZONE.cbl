@@ -6,7 +6,8 @@
       *
       * DISCLAIMER OF WARRANTIES
       * - Caveat Emptor: Buyer beware. This has no guarantees!
-      * - EDITED IN GITHUB
+      * - This is going to result in a PULL conflict!!
+      * - This line should not be in concflict.
       ******************************************************************
 
        IDENTIFICATION DIVISION.
