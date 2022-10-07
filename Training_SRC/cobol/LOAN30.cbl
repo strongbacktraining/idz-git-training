@@ -15,8 +15,8 @@
            05  PAYMENT           PIC S9(9)V99 USAGE COMP.
            05  PAYMENT-OUT       PIC $$$$,$$$,$$9.99 USAGE DISPLAY.
            05  LOAN-AMOUNT       PIC S9(7)V99 USAGE COMP.
-           05  LOAN-AMOUNT-IN    PIC X(16).
-           05  INTEREST-IN       PIC X(5).
+           05  LOAN-AMOUNT-IN    PIC X(32).
+           05  INTEREST-IN       PIC X(7).
            05  INTEREST          PIC S9(3)V99 USAGE COMP.
            05  NO-OF-PERIODS-IN  PIC X(3).
            05  NO-OF-PERIODS     PIC 99 USAGE COMP.
@@ -39,7 +39,7 @@
       * Make it presentable
            MOVE SPACES TO OUTPUT-LINE
            MOVE PAYMENT TO PAYMENT-OUT.
-           STRING "COBLOAN:_Repayment_amount_for_a_" NO-OF-PERIODS-IN
+           STRING "COBLOAN:_Repayment amount for a " NO-OF-PERIODS-IN
                    "_month_loan_of_" LOAN-AMOUNT-IN
                    "_at_" INTEREST-IN "_interest_is:_"
                DELIMITED BY SPACES
