@@ -6,7 +6,7 @@
       *                                                        *
       **********************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. LOAN01.
+       PROGRAM-ID. LOAN30.
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
