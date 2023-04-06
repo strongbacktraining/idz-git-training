@@ -14,7 +14,7 @@
        PROCEDURE DIVISION.
            DISPLAY "  SOCKY7: STARTING".
       *    The uninitialized FIELD2 will cause the
-      *    compute statement to fail
+      *    compute statement to fail.
            COMPUTE BALANCE = FIELD1 / FIELD2.
            MOVE BALANCE TO BALANCE-CHAR.
            DISPLAY "  BALANCE IS " BALANCE-CHAR.
