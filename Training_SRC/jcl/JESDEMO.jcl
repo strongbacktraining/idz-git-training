@@ -1,6 +1,6 @@
 
 //JCLDEMO1 JOB ,
-// MSGCLASS=H,MSGLEVEL=(1,1),TIME=(,4),REGION=144M
+//        MSGCLASS=H,MSGLEVEL=(1,1),TIME=(,4),REGION=144M
 //*********************************************************************
 //*  This is a sample JCL to run and show general commands
 //*********************************************************************

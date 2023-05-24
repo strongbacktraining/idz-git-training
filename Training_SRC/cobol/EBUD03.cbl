@@ -19,10 +19,10 @@
        WORKING-STORAGE SECTION.
       *
        01  LILIAN                  PIC S9(9) BINARY.
-       01  CHRDATE                 PIC X(80).
+       01  CHRDATE                 PIC X(60).
 
        01  IN-DATE.
-           02  VSTRING-LENGTH      PIC S9(4) BINARY.
+           02  VSTRING-LENGTH      PIC S9(6) BINARY.
            02  VSTRING-TEXT.
                03  VSTRING-CHAR    PIC X
                            OCCURS 0 TO 256 TIMES
