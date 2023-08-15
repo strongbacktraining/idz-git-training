@@ -11,12 +11,12 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        01  FIELDS.
-           05  INPUT-1           PIC X(25).
+           05  INPUT-1           PIC X(69).
            05  PAYMENT           PIC S9(9)V99 USAGE COMP.
            05  PAYMENT-OUT       PIC $$$$,$$$,$$9.99 USAGE DISPLAY.
            05  LOAN-AMOUNT       PIC S9(7)V99 USAGE COMP.
-           05  LOAN-AMOUNT-IN    PIC X(16).
-           05  INTEREST-IN       PIC X(5).
+           05  LOAN-AMOUNT-IN    PIC X(12).
+           05  INTEREST-IN       PIC X(6).
            05  INTEREST          PIC S9(3)V99 USAGE COMP.
            05  NO-OF-PERIODS-IN  PIC X(3).
            05  NO-OF-PERIODS     PIC 99 USAGE COMP.
