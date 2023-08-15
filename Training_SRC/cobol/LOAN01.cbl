@@ -20,7 +20,7 @@
            05  INTEREST          PIC S9(3)V99 USAGE COMP.
            05  NO-OF-PERIODS-IN  PIC X(3).
            05  NO-OF-PERIODS     PIC 99 USAGE COMP.
-           05  OUTPUT-LINE       PIC X(79).
+           05  OUTPUT-LINE       PIC X(80).
        LINKAGE SECTION.
        01  PARM-1.
            05  CALL-FEEDBACK     PIC XX.
