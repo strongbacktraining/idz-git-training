@@ -6,12 +6,12 @@
       *                                                        *
       **********************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. LOAN00.
+       PROGRAM-ID. LOAN01.
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        01  FIELDS.
-           05  INPUT-1           PIC X(26).
+           05  INPUT-1           PIC X(25).
            05  PAYMENT           PIC S9(9)V99 USAGE COMP.
            05  PAYMENT-OUT       PIC $$$$,$$$,$$9.99 USAGE DISPLAY.
            05  LOAN-AMOUNT       PIC S9(7)V99 USAGE COMP.
