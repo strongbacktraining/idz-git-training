@@ -3,7 +3,7 @@
       *                                                        *
       * A simple subprogram that calculates payment amount     *
       * for a loan. NEVER A conflict!!
-      *                                                        *
+      * This is the CORRECT Edit!
       **********************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LOAN01.
