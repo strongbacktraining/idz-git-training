@@ -3,11 +3,7 @@
       *                                                        *
       * A simple subprogram that calculates payment amount     *
       * for a loan. NEVER A conflict!!
-<<<<<<< HEAD
-      * This is the CORRECT Edit!
-=======
-      * This edit is just good enough.
->>>>>>> branch 'main' of https://github.com/strongbacktraining/idz-git-training.git
+      * This is the CORRECT Edit! 
       **********************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LOAN01.
