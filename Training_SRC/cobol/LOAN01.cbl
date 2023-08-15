@@ -2,7 +2,7 @@
       * LOAN00                                                *
       *                                                        *
       * A simple subprogram that calculates payment amount     *
-      * for a loan. What conflict???
+      * for a loan. NEVER A conflict!!
       *                                                        *
       **********************************************************
        IDENTIFICATION DIVISION.
