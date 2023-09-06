@@ -43,7 +43,7 @@
        01 PRINT-LINE                    PIC X(132).
 
        WORKING-STORAGE SECTION.
-       77 WS-STORAGE-IND                PIC X(60)
+       77 WS-STORAGE-IND                PIC X(80)
                                                        VALUE
              'WORKING STORAGE BEGINS HERE'.
 

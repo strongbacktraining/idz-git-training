@@ -13,7 +13,7 @@
              PRIVATE                        SMALLINT,
              SEMI_PRIVATE                   SMALLINT,
              NUMBER_OF_BEDS                 SMALLINT,
-             SPECIAL_EQUIPMENT              CHAR(255)
+             SPECIAL_EQUIPMENT              CHAR(245)
            ) END-EXEC.
       ******************************************************************
       * COBOL DECLARATION FOR TABLE DDS0001.ROOM_DATA                  *
