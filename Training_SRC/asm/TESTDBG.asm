@@ -69,7 +69,7 @@ STRT_END EQU    *
 *
 DONE_MSG DS     0F
          DC     AL2(DONE_END-DONE_ST)
-DONE_ST  DC     C'Terminating the program.'
+DONE_ST  DC     C'Terminating the application.'
 DONE_END EQU    *
 *
 DEST     DC     F'2'              The destination is the MSGFILE
