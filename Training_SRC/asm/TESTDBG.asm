@@ -43,7 +43,7 @@ TESTDBG  CEEENTRY PPA=MAINPPA,AUTO=WORKSIZE
 ZLEN     EQU 5
 PLEN     EQU ZLEN/2+1
 *
-SUMMSG   DC  C'(xxxxxxxx) -- The sum is '
+SUMMSG   DC  C'(xxxxxxxx) -- The sum is now'
 SUMMSK   DC  X'4020202020202120'
 ZNA      DC  ZL5'100'
 ZNB      DC  ZL5'250'
