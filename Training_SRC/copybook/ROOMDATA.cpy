@@ -5,6 +5,7 @@
       *        LANGUAGE(COBOL)                                         *
       *        QUOTE                                                   *
       *        DBCSDELIM(NO)                                           *
+      *   Another comment for the masses.
       * ... IS THE DCLGEN COMMAND THAT MADE THE FOLLOWING STATEMENTS   *
       ******************************************************************
            EXEC SQL DECLARE DDS0001.ROOM_DATA TABLE
