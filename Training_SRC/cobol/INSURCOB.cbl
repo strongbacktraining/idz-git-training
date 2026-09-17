@@ -4,7 +4,7 @@
       **** ENTERED OVER THE PAST WEEK
       **** IT USES INTRINSIC FUNCTIONS TO GET & FORMAT THE CURRENT DATE
       **** AND USES THE STRING FUNCTION TO INSERT "/" INTO DATE FIELDS
-      **** THIS MULTI-LINE REPORT IS TYPICAL OF BACK-OFFICE COBOL
+      **** THIS MULTI-LINE REPORT IS TYPICAL OF BACK-OFFICE COBOL.
       ******************************************************************
       * INSURCOB                                                       *
       * Compile/Link this program for Debug and - using batch JCL:     *
